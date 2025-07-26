@@ -23,7 +23,7 @@ public class MobilePurchFilpkart {
 	
 	@BeforeClass
 	public static void browserLaunch() {
-		//System.setProperty("webdriver.edge.driver","C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+		System.setProperty("webdriver.edge.driver","C:\\Users\\divya\\eclipse-workspace\\JulyProjectTesting\\target\\msedgedriver.exe");
 		WebDriver driver=new EdgeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
